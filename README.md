@@ -6,11 +6,25 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 # problem
 
+**Tailwindcss is not effective**
+
 The project tailwindcss created by installing the official documentation link did not take effect. What is the reason for this? Please refer to the readme document for the running effect.
 
 link:[使用 Vite 安装 Tailwind CSS - TailwindCSS 中文文档 | TailwindCSS 中文网 --- Install Tailwind CSS with Vite - TailwindCSS中文文档 | TailwindCSS中文网](https://www.tailwindcss.cn/docs/guides/vite#vue)
 
 why?
+
+test demo [triggergun/vite-demo02-20250706: vite-demo02-20250706 tailwindcss test](https://github.com/triggergun/vite-demo02-20250706)
+
+解决：
+
+[Tailwind CSS v4.0 Beta - TailwindCSS中文文档 | TailwindCSS中文网](https://www.tailwindcss.cn/docs/v4-beta#installing-with-vite)
+
+```
+npm install @tailwindcss/vite
+```
+
+![image-20250706160203534](README.assets/image-20250706160203534.png)
 
 # environment
 
